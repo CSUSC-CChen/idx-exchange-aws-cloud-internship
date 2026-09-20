@@ -1,0 +1,36 @@
+# Credentials and keys
+*.pem
+*.key
+.env
+*.env
+credentials
+*accessKeys*.csv
+*credentials*.csv
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+crash.log
+
+# Raw IDX data export (contains PII)
+rets_property.sql
+*.sql.gz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large media
+*.mov
+*.mp4
