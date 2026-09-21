@@ -10,8 +10,8 @@ Work log for the IDX Exchange AWS Cloud Engineer intern track. Over 12 weeks I t
 
 | Week | Topic | What PropertyLite gets | Status |
 |---|---|---|---|
-| 00 | Environment setup | Runs locally | ☐ |
-| 01 | Cloud fundamentals, account security | | ☐ |
+| 00 | Environment setup | Runs locally | ✅ |
+| 01 | Cloud fundamentals, account security | | ✅ |
 | 02 | IAM and least privilege | | ☐ |
 | 03 | EC2 | First deploy on a real server | ☐ |
 | 04 | S3, RDS, DynamoDB | Real (sanitized) listing data | ☐ |
