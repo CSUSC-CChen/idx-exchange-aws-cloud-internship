@@ -1,4 +1,3 @@
-[README (1).md](https://github.com/user-attachments/files/32426863/README.1.md)
 # AWS Cloud Engineer Journey
 
 Work log for the IDX Exchange AWS Cloud Engineer intern track. Over 12 weeks I take one small Flask app, **PropertyLite**, from a local script to a containerized, monitored, Terraform-managed production deployment on AWS.
