@@ -1,0 +1,5 @@
+# Week 5: Traffic Path
+
+Traffic from my laptop leaves over the internet and enters the VPC through the Internet Gateway. It reaches the bastion host in a public subnet, whose security group only allows SSH on port 22 from my IP. I forwarded my SSH key with the agent (ssh -A), so the key file was never copied onto the bastion. From the bastion I opened a second SSH connection to the private instance using its private IP. This works because the private instance has no public IP and its security group only accepts SSH from the bastion's security group.
+
+Going the other way, the private instance reaches the internet through a route in its subnet's route table that sends 0.0.0.0/0 to the NAT Gateway in a public subnet. The NAT Gateway forwards the traffic out through the Internet Gateway. I confirmed this by running yum update on the private instance, which completed. The internet cannot start a connection to the private instance, because the NAT Gateway only allows replies to traffic the instance started.
