@@ -17,7 +17,7 @@ Work log for the IDX Exchange AWS Cloud Engineer intern track. Over 12 weeks I t
 | 04 | S3, RDS, DynamoDB | Real (sanitized) listing data | ✅ |
 | 05 | VPC networking | Public and private subnets | ✅ |
 | 06 | ALB and Auto Scaling | Load balanced, self-healing | ✅ |
-| 07 | Lambda, API Gateway, SQS | Serverless read path | ☐ |
+| 07 | Lambda, API Gateway, SQS | Serverless read path | ✅ |
 | 08 | Terraform | Infrastructure as code | ☐ |
 | 09 | Docker, ECR, ECS Fargate | Containerized | ☐ |
 | 10 | GitHub Actions CI/CD with OIDC | Automated releases | ☐ |
