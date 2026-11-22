@@ -34,3 +34,9 @@ desktop.ini
 # Large media
 *.mov
 *.mp4
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
